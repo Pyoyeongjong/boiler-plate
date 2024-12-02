@@ -4,15 +4,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pyjong1999",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "boiler-plate": "file:",
     "express": "^4.21.1",
     "mongodb": "^6.11.0",
     "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }

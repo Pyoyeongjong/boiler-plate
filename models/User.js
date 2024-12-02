@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+//require를 넣지 않은 곳은 꼭 채워줄 필요 없음
 const userSchema = mongoose.Schema({
     name: {
         type: String,
@@ -22,7 +23,7 @@ const userSchema = mongoose.Schema({
         type: Number,
         default: 0
     },
-    image: ServerMonitoringMode,
+    image: String,
     token: {
         type: String
     },
